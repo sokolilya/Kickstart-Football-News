@@ -1,0 +1,327 @@
+
+/* Class = "UILabel"; text = "TEAMS"; ObjectID = "1Up-Nz-sei"; */
+"1Up-Nz-sei.text" = "TEAMS";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "1cT-wM-CUB"; */
+"1cT-wM-CUB.text" = "1";
+
+/* Class = "UILabel"; text = "Pts"; ObjectID = "2Il-J5-zSz"; */
+"2Il-J5-zSz.text" = "Pts";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "2ZK-UM-gIr"; */
+"2ZK-UM-gIr.text" = "Score";
+
+/* Class = "UILabel"; text = "GD"; ObjectID = "2ds-93-KfP"; */
+"2ds-93-KfP.text" = "GD";
+
+/* Class = "UIButton"; normalTitle = "SKIP >>"; ObjectID = "2tT-Vq-PaV"; */
+"2tT-Vq-PaV.normalTitle" = "SKIP >>";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "55N-de-RiS"; */
+"55N-de-RiS.text" = "?";
+
+/* Class = "UILabel"; text = "D: Draw"; ObjectID = "5oy-uI-q4Y"; */
+"5oy-uI-q4Y.text" = "D: Draw";
+
+/* Class = "UILabel"; text = "Team"; ObjectID = "63b-iL-BZK"; */
+"63b-iL-BZK.text" = "Team";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "6KB-tj-IiA"; */
+"6KB-tj-IiA.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "6SE-kt-0xn"; */
+"6SE-kt-0xn.text" = "?";
+
+/* Class = "UILabel"; text = "Group"; ObjectID = "6lD-IS-CkZ"; */
+"6lD-IS-CkZ.text" = "Group";
+
+/* Class = "UIButton"; normalTitle = "More"; ObjectID = "7JZ-o8-QvX"; */
+"7JZ-o8-QvX.normalTitle" = "More";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "7dH-Ib-rnh"; */
+"7dH-Ib-rnh.text" = "?";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "9mp-wM-96K"; */
+"9mp-wM-96K.text" = "D";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "A32-Gp-Ggw"; */
+"A32-Gp-Ggw.text" = "Label";
+
+/* Class = "UILabel"; text = "Nothing Found"; ObjectID = "Ast-Bi-KEB"; */
+"Ast-Bi-KEB.text" = "Nothing Found";
+
+/* Class = "UILabel"; text = "28 Dec 2015 7:59am"; ObjectID = "BCT-jr-B5e"; */
+"BCT-jr-B5e.text" = "28 Dec 2015 7:59am";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "CgN-8b-2UQ"; */
+"CgN-8b-2UQ.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "F8J-1c-K9M"; */
+"F8J-1c-K9M.text" = "?";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "FM9-dT-vg1"; */
+"FM9-dT-vg1.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Pts: Points"; ObjectID = "FtQ-7G-ZCy"; */
+"FtQ-7G-ZCy.text" = "Pts: Points";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GLA-vv-fuA"; */
+"GLA-vv-fuA.text" = "Label";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "HBf-AC-QSp"; */
+"HBf-AC-QSp.text" = ":";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "JWJ-WX-e96"; */
+"JWJ-WX-e96.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "KnM-E3-34M"; */
+"KnM-E3-34M.text" = "?";
+
+/* Class = "UILabel"; text = "Mf:"; ObjectID = "L4N-Bb-sa3"; */
+"L4N-Bb-sa3.text" = "Mf:";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "Lf3-iL-x8v"; */
+"Lf3-iL-x8v.text" = "?";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "Mxp-Wm-y5R"; */
+"Mxp-Wm-y5R.text" = "All";
+
+/* Class = "UILabel"; text = "Details News"; ObjectID = "N22-hp-ynD"; */
+"N22-hp-ynD.text" = "Details News";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "OlV-jG-ENP"; */
+"OlV-jG-ENP.text" = "Settings";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "P2S-7b-cIl"; */
+"P2S-7b-cIl.text" = "Label";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "PBQ-iT-gkl"; */
+"PBQ-iT-gkl.text" = "?";
+
+/* Class = "UILabel"; text = "Midfielder"; ObjectID = "PXN-6b-086"; */
+"PXN-6b-086.text" = "Midfielder";
+
+/* Class = "UILabel"; text = "Groups"; ObjectID = "QdI-bK-sd9"; */
+"QdI-bK-sd9.text" = "Groups";
+
+/* Class = "UILabel"; text = "46"; ObjectID = "Rbl-Qt-zhK"; */
+"Rbl-Qt-zhK.text" = "46";
+
+/* Class = "UILabel"; text = "France"; ObjectID = "SLc-tV-yfD"; */
+"SLc-tV-yfD.text" = "France";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "SZs-bf-qWv"; */
+"SZs-bf-qWv.text" = "12";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "SdP-sW-DoS"; */
+"SdP-sW-DoS.text" = "?";
+
+/* Class = "UILabel"; text = "Df:"; ObjectID = "TCu-tG-52b"; */
+"TCu-tG-52b.text" = "Df:";
+
+/* Class = "UILabel"; text = "W"; ObjectID = "U6I-Su-9q3"; */
+"U6I-Su-9q3.text" = "W";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "UVg-Z6-EPR"; */
+"UVg-Z6-EPR.text" = "?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Uzz-f1-kEy"; */
+"Uzz-f1-kEy.text" = "Label";
+
+/* Class = "UILabel"; text = "Auto refresh match detail"; ObjectID = "VDo-kz-NLs"; */
+"VDo-kz-NLs.text" = "Auto refresh match detail";
+
+/* Class = "UILabel"; text = "1 min"; ObjectID = "VHk-7W-SUq"; */
+"VHk-7W-SUq.text" = "1 min";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "VME-Dg-lIv"; */
+"VME-Dg-lIv.text" = "Home";
+
+/* Class = "UILabel"; text = "Goalkeeper"; ObjectID = "ViH-0g-Hla"; */
+"ViH-0g-Hla.text" = "Goalkeeper";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "XuG-YK-fBu"; */
+"XuG-YK-fBu.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "YMk-oG-Noy"; */
+"YMk-oG-Noy.text" = "?";
+
+/* Class = "UILabel"; text = "Steven Naismith"; ObjectID = "Ymr-yy-DQT"; */
+"Ymr-yy-DQT.text" = "Steven Naismith";
+
+/* Class = "UILabel"; text = "Wilshere could be Euros doubt"; ObjectID = "Yni-2o-oL0"; */
+"Yni-2o-oL0.text" = "Wilshere could be Euros doubt";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "Yzp-8d-nvT"; */
+"Yzp-8d-nvT.text" = "?";
+
+/* Class = "UILabel"; text = "32"; ObjectID = "ZCC-HS-5lR"; */
+"ZCC-HS-5lR.text" = "32";
+
+/* Class = "UILabel"; text = "Turn on Alert with your favorite teams"; ObjectID = "ZMH-Hz-J89"; */
+"ZMH-Hz-J89.text" = "Turn on Alert with your favorite teams";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "ZQf-Ah-oxB"; */
+"ZQf-Ah-oxB.text" = "?";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ZaK-sR-HeP"; */
+"ZaK-sR-HeP.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "bKV-FK-dyI"; */
+"bKV-FK-dyI.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Gk:"; ObjectID = "ba9-dk-FEl"; */
+"ba9-dk-FEl.text" = "Gk:";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "bcH-4c-Oq9"; */
+"bcH-4c-Oq9.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "bi8-fH-lVq"; */
+"bi8-fH-lVq.text" = "?";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "cOw-mP-Tus"; */
+"cOw-mP-Tus.text" = "Title";
+
+/* Class = "UILabel"; text = "Fw:"; ObjectID = "dA5-db-5m7"; */
+"dA5-db-5m7.text" = "Fw:";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "dGT-2c-J2u"; */
+"dGT-2c-J2u.text" = "?";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "dKR-PS-OK0"; */
+"dKR-PS-OK0.text" = "10";
+
+/* Class = "UILabel"; text = "Jack Wilshere's England plac at Euro 2016 could be in doubt as Arsene Wenger does not know the injured Arsenal midfielder will return"; ObjectID = "dSw-vW-T08"; */
+"dSw-vW-T08.text" = "Jack Wilshere's England plac at Euro 2016 could be in doubt as Arsene Wenger does not know the injured Arsenal midfielder will return";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "ddI-A1-nGe"; */
+"ddI-A1-nGe.text" = "L";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "eJ6-s3-6vE"; */
+"eJ6-s3-6vE.text" = "#";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "ei3-E1-7nJ"; */
+"ei3-E1-7nJ.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "epL-BB-cSz"; */
+"epL-BB-cSz.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "f9j-Bh-ilz"; */
+"f9j-Bh-ilz.text" = "?";
+
+/* Class = "UILabel"; text = "TEAMS"; ObjectID = "gEi-2d-qmr"; */
+"gEi-2d-qmr.text" = "TEAMS";
+
+/* Class = "UILabel"; text = "L: Lost"; ObjectID = "gfv-Gb-C8N"; */
+"gfv-Gb-C8N.text" = "L: Lost";
+
+/* Class = "UILabel"; text = "MF"; ObjectID = "ggA-9G-mbO"; */
+"ggA-9G-mbO.text" = "MF";
+
+/* Class = "UILabel"; text = "P"; ObjectID = "gn7-GA-vV1"; */
+"gn7-GA-vV1.text" = "P";
+
+/* Class = "UILabel"; text = "SECS"; ObjectID = "hUd-aK-d8T"; */
+"hUd-aK-d8T.text" = "SECS";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "hxI-Jc-Xmt"; */
+"hxI-Jc-Xmt.text" = "?";
+
+/* Class = "UILabel"; text = "Top Scorers"; ObjectID = "iIR-5p-Mvi"; */
+"iIR-5p-Mvi.text" = "Top Scorers";
+
+/* Class = "UILabel"; text = "France"; ObjectID = "ixT-Pa-bfT"; */
+"ixT-Pa-bfT.text" = "France";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "kGJ-AC-FYx"; */
+"kGJ-AC-FYx.text" = "?";
+
+/* Class = "UILabel"; text = "DAYS"; ObjectID = "kaQ-A2-RcI"; */
+"kaQ-A2-RcI.text" = "DAYS";
+
+/* Class = "UILabel"; text = "89'"; ObjectID = "knC-Gw-YDy"; */
+"knC-Gw-YDy.text" = "89'";
+
+/* Class = "UILabel"; text = "HOURS"; ObjectID = "kvG-UX-Iiy"; */
+"kvG-UX-Iiy.text" = "HOURS";
+
+/* Class = "UILabel"; text = "79'"; ObjectID = "lQy-nk-roU"; */
+"lQy-nk-roU.text" = "79'";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "lc6-IO-fk4"; */
+"lc6-IO-fk4.text" = "#";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "lyQ-Dx-qra"; */
+"lyQ-Dx-qra.text" = "?";
+
+/* Class = "UILabel"; text = "P: Played"; ObjectID = "mHF-eg-IDC"; */
+"mHF-eg-IDC.text" = "P: Played";
+
+/* Class = "UILabel"; text = "On/Off Notification"; ObjectID = "mdB-HC-Wvh"; */
+"mdB-HC-Wvh.text" = "On/Off Notification";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "mdP-oT-iBE"; */
+"mdP-oT-iBE.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "mls-NF-mpT"; */
+"mls-NF-mpT.text" = "?";
+
+/* Class = "UILabel"; text = "MINS"; ObjectID = "n2g-aQ-Htj"; */
+"n2g-aQ-Htj.text" = "MINS";
+
+/* Class = "UILabel"; text = "W: Won"; ObjectID = "nOZ-RL-ZL6"; */
+"nOZ-RL-ZL6.text" = "W: Won";
+
+/* Class = "UILabel"; text = "129"; ObjectID = "nlC-qM-R3s"; */
+"nlC-qM-R3s.text" = "129";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "o05-69-iux"; */
+"o05-69-iux.text" = "Player";
+
+/* Class = "UILabel"; text = "10 min"; ObjectID = "oYD-25-obC"; */
+"oYD-25-obC.text" = "10 min";
+
+/* Class = "UILabel"; text = "France"; ObjectID = "p5B-7U-8kv"; */
+"p5B-7U-8kv.text" = "France";
+
+/* Class = "UILabel"; text = "Striker"; ObjectID = "pSo-pN-pGz"; */
+"pSo-pN-pGz.text" = "Striker";
+
+/* Class = "UILabel"; text = "Schedule"; ObjectID = "pzr-9q-wnl"; */
+"pzr-9q-wnl.text" = "Schedule";
+
+/* Class = "UILabel"; text = "COMING ON"; ObjectID = "qqR-mk-ULt"; */
+"qqR-mk-ULt.text" = "COMING ON";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "s6H-UR-OJX"; */
+"s6H-UR-OJX.text" = "?";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "sG1-dC-lyp"; */
+"sG1-dC-lyp.text" = "?";
+
+/* Class = "UILabel"; text = "Create User"; ObjectID = "sQ0-Aj-xRv"; */
+"sQ0-Aj-xRv.text" = "Create User";
+
+/* Class = "UILabel"; text = "Defender"; ObjectID = "tOy-dq-r7L"; */
+"tOy-dq-r7L.text" = "Defender";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "tyG-3c-mhd"; */
+"tyG-3c-mhd.text" = "?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "v1I-Il-jXK"; */
+"v1I-Il-jXK.text" = "Label";
+
+/* Class = "UILabel"; text = "News"; ObjectID = "we4-pD-zE4"; */
+"we4-pD-zE4.text" = "News";
+
+/* Class = "UILabel"; text = "FRA"; ObjectID = "x3L-sF-hbn"; */
+"x3L-sF-hbn.text" = "FRA";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "xOH-kS-MrZ"; */
+"xOH-kS-MrZ.text" = "?";
+
+/* Class = "UILabel"; text = "GF: Goal Different"; ObjectID = "z0M-NR-FKS"; */
+"z0M-NR-FKS.text" = "GF: Goal Different";
+
+/* Class = "UILabel"; text = "?"; ObjectID = "zae-ET-9nl"; */
+"zae-ET-9nl.text" = "?";

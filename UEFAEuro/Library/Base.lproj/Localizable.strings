@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  Euro2016
+
+  Created by HiCom on 4/26/16.
+  Copyright © 2016 Hicom Solution. All rights reserved.
+*/
+"kAppName"                              = "Kickstart Football News";
+"kOk"                                   = "DETAIL";
+"kClOSE"                                = "CLOSE";
+
+//MARK: Menu
+"kMenuHome"                             =       "Home";
+"kMenuGroup"                            =       "Groups";
+"kMenuSchedule"                         =       "Schedule";
+"kMenuTopScore"                         =       "Top Scores";
+"kMenuNews"                             =       "News";
+"kMenuSetting"                          =       "Settings";
+//MARK: Home
+"kComingOn"                         =           "COMING ON";
+
+"kDays"                             =           "DAYS";
+"kHours"                            =           "HOURS";
+"kMins"                             =           "MINS";
+"kSecs"                             =           "SECS";
+"kSkip"                                 =       "SKIP";
+"kTabRecentMatches"                    =       "RECENT MATCHS";
+"kTabNextMatches"                      =       "NEXT MATCHS";
+"kTabKnockOut"                         =       "KNOCK OUT";
+"kNoMatch"                             =       "No Match";
+//MARK:Schedule sort
+"All"                                   = "All";
+"Fixture"                               = "Fixture";
+"Today"                                 = "Today";
+"History"                               = "History";
+"Teams"                                 = "Teams";
+//MARK: Set Alarm
+"SAVE"                                  = "SAVE";
+"CANCEL" = "CANCEL";
+"kAlarmLblOnTime" = "On time";
+"kAlarmLbl30Min" = "15 minutes before";
+"kAlarmLbl60Min" = "30 minutes before";
+"kAlarmLbl2Hours" = "60 minutes before";
+"Save reminder success!" = "Save reminder success!";
+"Have error while saving reminder" = "Have error while saving reminder";
+"will be starting" = "will be starting";
+"will start in 30 minutes" = "will start in 15 minutes";
+"will start in 60 minutes" = "will start in 30 minutes";
+"will start in 2 hours"  = "will start in 60 minutes";
+//MARK: News
+"kNews" = "News";
+
+//MARK: Setting
+"kSettingOnOffNoti" = "On/Off Notification";
+"kSettingAutoRefresh" = "Auto refresh match detail";
+"kSettingTurnOnAlert" = "Turn on Alert with your favorite teams";
+"Have some error while loading data" = "Have some error while loading data";
+//"The match" =
+//MARK: Top score
+"kTopScoreTeam" = "Team";
+"kTopScoreScore" = "Score";
+"kTopScorePlayer" = "Player";
+"kNoTopScore" = "No top score";
+//MARK: Detail new
+"kDetailNew"    =   "Detail New";
+//MARK: SETTING
+"kMin"          =   "min";
+//MARK: detail match
+"kDetailMatchLive:" = "LIVE:";
+"kTimeline"         =   "TIMELINE";
+"kLineUp"           =   "LINEUP";
+"kComment"          =   "COMMENT";
+//MARK: Lineup
+"kGoalkeeper"       =   "Goalkeeper";
+"kGoalkeeperAbb"    =   "GK:";
+"kDefender"         =   "Defender";
+"kDefenderAbb"      =   "DF:";
+"kMidfielder"       =   "Midfielder";
+"kMidfielderAbb"    =   "MF:";
+"kStriker"          =   "Striker";
+"kStrikerAbb"       =   "FW:";
+
+//MARK: standing VC
+"kStanCellTeam" = "Team";
+"kStanCellPlayer" = "P";
+"kStanCellDraw" = "D";
+"kStanCellGoal" = "GF";
+"kStanCellWon" = "W";
+"kStanCellLost" = "L";
+"kStanCellPoint" = "Pts";
+"kStandinglblTeams" = "Teams";
+"kStandingLblPlayer" = "P: Played";
+"kStandingLblDraw" = "D: Draw";
+"kStandingLblGoal" = "GF: Goal Different";
+"kStandingLblWon" = "W: Won";
+"kStandingLblLost" = "L: Lost";
+"kStandingLblPoint" = "Pts: Points";
+//MARK: comment VC
+"kFillToName" =                         "please fill to username";
+"kCommentFillToContent" =               "please fill to content";
+"kCommentTitleCreate" =                 "Create New Username";
+"kCommentTitleChange"                   =  "Change Username";
+"kCommentNeedUserName"                  = "Plaese create username";
+
+
+"kTabStanding"                          =       "STANDING";
+"kTabSchedule"                          =       "SCHEDULE";

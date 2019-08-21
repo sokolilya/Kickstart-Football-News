@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetAlarmVC" customModule="Kickstart_Football_News" customModuleProvider="target">
+            <connections>
+                <outlet property="btn2Hours" destination="VGa-47-0SG" id="Ln9-MA-yGH"/>
+                <outlet property="btn30Minutes" destination="ujn-Fu-E8Y" id="a6F-xL-Wrx"/>
+                <outlet property="btn60Minutes" destination="qWC-2k-7WK" id="LuS-bu-Rch"/>
+                <outlet property="btnCancel" destination="HMM-h0-tt6" id="Ilg-T9-Moj"/>
+                <outlet property="btnOk" destination="A9f-pf-k5k" id="bXS-RB-TRi"/>
+                <outlet property="btnOnTime" destination="7jv-w6-fQP" id="5Dp-Ej-mZH"/>
+                <outlet property="lbl2HoursBefore" destination="Sgf-EA-Gaw" id="WdY-u9-jzX"/>
+                <outlet property="lbl30Minbefore" destination="Yt6-rC-LMB" id="Sjq-IA-rCN"/>
+                <outlet property="lbl60MinBefore" destination="zYO-G0-Bof" id="hvd-Fr-ay2"/>
+                <outlet property="lblOntime" destination="Lb3-CZ-PcJ" id="ZBd-aJ-hX1"/>
+                <outlet property="lblTime" destination="2oq-5T-LhM" id="xiU-Qo-ocq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQ3-cc-kIx">
+                    <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oq-5T-LhM">
+                            <rect key="frame" x="15" y="15" width="270" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="vd3-OM-DCy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            <color key="textColor" red="0.22352941179999999" green="0.63921568630000003" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujn-Fu-E8Y">
+                            <rect key="frame" x="20" y="99" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="0Uk-Q8-efE"/>
+                                <constraint firstAttribute="width" constant="44" id="FUV-tf-Din"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_checkbox.png"/>
+                            <state key="selected" backgroundImage="ic_checkbox_selected.png"/>
+                            <connections>
+                                <action selector="onSelectTimeAlarm:" destination="-1" eventType="touchUpInside" id="JyM-2t-WPp"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 minutes before" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt6-rC-LMB">
+                            <rect key="frame" x="84" y="112.5" width="114.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWC-2k-7WK">
+                            <rect key="frame" x="20" y="143" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="5Zg-k3-BvP"/>
+                                <constraint firstAttribute="width" constant="44" id="BPf-cR-EC8"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_checkbox.png"/>
+                            <state key="selected" backgroundImage="ic_checkbox_selected.png"/>
+                            <connections>
+                                <action selector="onSelectTimeAlarm:" destination="-1" eventType="touchUpInside" id="AMf-6X-myW"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 minutes before" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYO-G0-Bof">
+                            <rect key="frame" x="84" y="156.5" width="117" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGa-47-0SG">
+                            <rect key="frame" x="20" y="187" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="dmH-mc-362"/>
+                                <constraint firstAttribute="height" constant="44" id="hLw-iB-cyQ"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_checkbox.png"/>
+                            <state key="selected" backgroundImage="ic_checkbox_selected.png"/>
+                            <connections>
+                                <action selector="onSelectTimeAlarm:" destination="-1" eventType="touchUpInside" id="ZuK-QO-7BT"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 minutes before" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgf-EA-Gaw">
+                            <rect key="frame" x="84" y="200.5" width="117" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jv-w6-fQP">
+                            <rect key="frame" x="20" y="55" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="IVu-g9-khc"/>
+                                <constraint firstAttribute="width" constant="44" id="ywi-vh-C6M"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_checkbox.png"/>
+                            <state key="selected" backgroundImage="ic_checkbox_selected.png"/>
+                            <connections>
+                                <action selector="onSelectTimeAlarm:" destination="-1" eventType="touchUpInside" id="xnf-nh-xNM"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lb3-CZ-PcJ">
+                            <rect key="frame" x="84" y="68.5" width="50" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMM-h0-tt6">
+                            <rect key="frame" x="90" y="252" width="90" height="30"/>
+                            <state key="normal" title="CANCEL">
+                                <color key="titleColor" red="0.22352941179999999" green="0.63921568630000003" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onCancel:" destination="-1" eventType="touchUpInside" id="t6t-UE-Qgx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9f-pf-k5k">
+                            <rect key="frame" x="190" y="252" width="90" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="90" id="1gI-SU-hIs"/>
+                                <constraint firstAttribute="height" constant="30" id="Zzo-Bz-6YC"/>
+                            </constraints>
+                            <state key="normal" title="SAVE">
+                                <color key="titleColor" red="0.22352941179999999" green="0.63921568630000003" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onSave:" destination="-1" eventType="touchUpInside" id="wJF-uK-MO8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="A9f-pf-k5k" firstAttribute="height" secondItem="HMM-h0-tt6" secondAttribute="height" id="0lN-cg-9lF"/>
+                        <constraint firstAttribute="height" constant="300" id="1BH-jw-CXp"/>
+                        <constraint firstItem="2oq-5T-LhM" firstAttribute="top" secondItem="eQ3-cc-kIx" secondAttribute="top" constant="15" id="7Vc-YT-Aop"/>
+                        <constraint firstItem="ujn-Fu-E8Y" firstAttribute="top" secondItem="7jv-w6-fQP" secondAttribute="bottom" id="BIc-B8-P3m"/>
+                        <constraint firstAttribute="trailing" secondItem="2oq-5T-LhM" secondAttribute="trailing" constant="15" id="F13-Ca-FZC"/>
+                        <constraint firstItem="7jv-w6-fQP" firstAttribute="top" secondItem="2oq-5T-LhM" secondAttribute="bottom" constant="10" id="Ftp-zG-A2e"/>
+                        <constraint firstItem="Sgf-EA-Gaw" firstAttribute="centerY" secondItem="VGa-47-0SG" secondAttribute="centerY" id="MgL-PB-skj"/>
+                        <constraint firstItem="zYO-G0-Bof" firstAttribute="centerY" secondItem="qWC-2k-7WK" secondAttribute="centerY" id="Oje-44-mxo"/>
+                        <constraint firstItem="A9f-pf-k5k" firstAttribute="width" secondItem="HMM-h0-tt6" secondAttribute="width" id="PGv-CR-eDw"/>
+                        <constraint firstItem="A9f-pf-k5k" firstAttribute="centerY" secondItem="HMM-h0-tt6" secondAttribute="centerY" id="Prw-Ir-pCp"/>
+                        <constraint firstItem="VGa-47-0SG" firstAttribute="leading" secondItem="eQ3-cc-kIx" secondAttribute="leading" constant="20" id="RZ9-c8-hju"/>
+                        <constraint firstItem="qWC-2k-7WK" firstAttribute="leading" secondItem="eQ3-cc-kIx" secondAttribute="leading" constant="20" id="SRy-8n-dlv"/>
+                        <constraint firstItem="qWC-2k-7WK" firstAttribute="top" secondItem="ujn-Fu-E8Y" secondAttribute="bottom" id="Sed-ej-xBe"/>
+                        <constraint firstItem="ujn-Fu-E8Y" firstAttribute="leading" secondItem="eQ3-cc-kIx" secondAttribute="leading" constant="20" id="TWj-dB-4OV"/>
+                        <constraint firstItem="Lb3-CZ-PcJ" firstAttribute="leading" secondItem="7jv-w6-fQP" secondAttribute="trailing" constant="20" id="X0H-Uf-rJe"/>
+                        <constraint firstItem="VGa-47-0SG" firstAttribute="top" secondItem="qWC-2k-7WK" secondAttribute="bottom" id="XQ0-bA-tDb"/>
+                        <constraint firstItem="7jv-w6-fQP" firstAttribute="leading" secondItem="eQ3-cc-kIx" secondAttribute="leading" constant="20" id="ZcL-vu-OEb"/>
+                        <constraint firstAttribute="width" constant="300" id="aaw-PQ-iG6"/>
+                        <constraint firstItem="Yt6-rC-LMB" firstAttribute="leading" secondItem="ujn-Fu-E8Y" secondAttribute="trailing" constant="20" id="b0q-dW-7Yp"/>
+                        <constraint firstAttribute="bottom" secondItem="A9f-pf-k5k" secondAttribute="bottom" constant="18" id="cEo-q1-cbi"/>
+                        <constraint firstItem="Yt6-rC-LMB" firstAttribute="centerY" secondItem="ujn-Fu-E8Y" secondAttribute="centerY" id="eto-cA-QoW"/>
+                        <constraint firstItem="2oq-5T-LhM" firstAttribute="leading" secondItem="eQ3-cc-kIx" secondAttribute="leading" constant="15" id="fbf-Ct-xG6"/>
+                        <constraint firstAttribute="trailing" secondItem="A9f-pf-k5k" secondAttribute="trailing" constant="20" id="g4C-Wv-txr"/>
+                        <constraint firstItem="A9f-pf-k5k" firstAttribute="leading" secondItem="HMM-h0-tt6" secondAttribute="trailing" constant="10" id="gVK-9g-Huu"/>
+                        <constraint firstItem="Sgf-EA-Gaw" firstAttribute="leading" secondItem="VGa-47-0SG" secondAttribute="trailing" constant="20" id="mRO-eI-Qr0"/>
+                        <constraint firstItem="Lb3-CZ-PcJ" firstAttribute="centerY" secondItem="7jv-w6-fQP" secondAttribute="centerY" id="osF-HZ-WEp"/>
+                        <constraint firstItem="zYO-G0-Bof" firstAttribute="leading" secondItem="qWC-2k-7WK" secondAttribute="trailing" constant="20" id="sk7-N8-syM"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.50897090517241383" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailingMargin" secondItem="eQ3-cc-kIx" secondAttribute="trailing" constant="15" id="QCx-lE-VAC"/>
+                <constraint firstItem="eQ3-cc-kIx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cyZ-fc-qJV"/>
+                <constraint firstItem="eQ3-cc-kIx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" constant="15" id="lpP-lM-zqC"/>
+                <constraint firstItem="eQ3-cc-kIx" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="vD3-bT-lNx"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="QCx-lE-VAC"/>
+                    <exclude reference="lpP-lM-zqC"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="242.5" y="277.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_checkbox.png" width="88" height="88"/>
+        <image name="ic_checkbox_selected.png" width="88" height="88"/>
+    </resources>
+</document>

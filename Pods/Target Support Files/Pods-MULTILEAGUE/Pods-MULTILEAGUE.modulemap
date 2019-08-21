@@ -1,0 +1,6 @@
+framework module Pods_MULTILEAGUE {
+  umbrella header "Pods-MULTILEAGUE-umbrella.h"
+
+  export *
+  module * { export * }
+}

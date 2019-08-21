@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DropRoundViewController" customModule="MULTILEAGUE" customModuleProvider="target">
+            <connections>
+                <outlet property="tbRoundView" destination="m1g-D3-5Oc" id="2Pn-fS-U7K"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7jk-F7-WzI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8a-7C-8kT">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <connections>
+                                <action selector="onHIde:" destination="-1" eventType="touchUpInside" id="Otw-EJ-ecl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="f8a-7C-8kT" secondAttribute="bottom" id="2Bk-ZJ-tse"/>
+                        <constraint firstItem="f8a-7C-8kT" firstAttribute="leading" secondItem="7jk-F7-WzI" secondAttribute="leading" id="8hd-EG-7DT"/>
+                        <constraint firstAttribute="trailing" secondItem="f8a-7C-8kT" secondAttribute="trailing" id="CGq-MA-PHI"/>
+                        <constraint firstItem="f8a-7C-8kT" firstAttribute="top" secondItem="7jk-F7-WzI" secondAttribute="top" id="jOc-PF-FGl"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="m1g-D3-5Oc">
+                    <rect key="frame" x="67.5" y="133.5" width="240" height="400"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="0cG-Gi-aPZ"/>
+                        <constraint firstAttribute="width" constant="240" id="5Gj-i0-01E"/>
+                    </constraints>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="m1g-D3-5Oc" firstAttribute="centerX" secondItem="7jk-F7-WzI" secondAttribute="centerX" id="JZV-ZD-HbH"/>
+                <constraint firstAttribute="trailing" secondItem="7jk-F7-WzI" secondAttribute="trailing" id="LTP-5K-M58"/>
+                <constraint firstAttribute="bottom" secondItem="7jk-F7-WzI" secondAttribute="bottom" id="Rme-87-leK"/>
+                <constraint firstItem="7jk-F7-WzI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cjj-7a-nLz"/>
+                <constraint firstItem="7jk-F7-WzI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wTE-hn-jS1"/>
+                <constraint firstItem="m1g-D3-5Oc" firstAttribute="centerY" secondItem="7jk-F7-WzI" secondAttribute="centerY" id="ySS-lm-hqD"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

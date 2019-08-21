@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChampionwithErroViewController" customModule="MULTILEAGUE" customModuleProvider="target">
+            <connections>
+                <outlet property="tbViewShowTeam" destination="HcW-5J-1bp" id="cGB-kh-TpQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7i-z7-Hy8">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTS-Kw-qTl">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <connections>
+                                <action selector="onHide:" destination="-1" eventType="touchUpInside" id="eqT-eV-adz"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="rTS-Kw-qTl" secondAttribute="trailing" id="Ckq-9l-jMh"/>
+                        <constraint firstItem="rTS-Kw-qTl" firstAttribute="leading" secondItem="Q7i-z7-Hy8" secondAttribute="leading" id="NrI-nu-qTm"/>
+                        <constraint firstItem="rTS-Kw-qTl" firstAttribute="top" secondItem="Q7i-z7-Hy8" secondAttribute="top" id="pZ5-hb-lCL"/>
+                        <constraint firstAttribute="bottom" secondItem="rTS-Kw-qTl" secondAttribute="bottom" id="xQ8-mJ-TD1"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HcW-5J-1bp">
+                    <rect key="frame" x="67.5" y="133.5" width="240" height="400"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="0Ug-oU-byN"/>
+                        <constraint firstAttribute="height" constant="400" id="LVn-aP-Waw"/>
+                    </constraints>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Q7i-z7-Hy8" secondAttribute="bottom" id="3ff-vf-duw"/>
+                <constraint firstItem="Q7i-z7-Hy8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7tl-o7-iHq"/>
+                <constraint firstItem="Q7i-z7-Hy8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bC8-wa-ZKX"/>
+                <constraint firstItem="Q7i-z7-Hy8" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="cul-Yy-Tak"/>
+                <constraint firstItem="HcW-5J-1bp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jl5-dz-Co7"/>
+                <constraint firstItem="HcW-5J-1bp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kSL-fD-wfA"/>
+                <constraint firstItem="Q7i-z7-Hy8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="r0i-13-SLc"/>
+                <constraint firstAttribute="trailing" secondItem="Q7i-z7-Hy8" secondAttribute="trailing" id="yif-Bm-LzE"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="95.5"/>
+        </view>
+    </objects>
+</document>
